@@ -11,10 +11,10 @@ export const Home = () => {
                 <h2 className="text-white">I AM SOFTWARE</h2>
                 <h2 className="text-emerald-600">DEVELOPER</h2>
                 <div>
-                 <i className="p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-linkedin"></i>
-                 <i className="p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-github"></i>
-                 <i className="p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-tiktok"></i>
-                 <i className="p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-instagram"></i>                
+                 <i className="cursor-pointer p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-linkedin"></i>
+                 <i className="cursor-pointer p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-github"></i>
+                 <i className="cursor-pointer p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-tiktok"></i>
+                 <i className="cursor-pointer p-2 hover:scale-110 transition-all duration-300 text-3xl text-white fa-brands fa-instagram"></i>                
                  </div>
          </div>
        </div>
