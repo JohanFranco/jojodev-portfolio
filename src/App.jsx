@@ -1,6 +1,8 @@
 import { ApiTable } from "./components/ApiTable"
+import { CustomCursor } from "./components/CustomCursor"
 import { Home } from "./components/Home"
 import { NavBar } from "./components/NavBar"
+import { Skills } from "./components/Skills"
 import { WepView } from "./components/WepView"
 import { WepViewReverse } from "./components/WepViewReverse"
 import { WepViewTr } from "./components/WepViewTr"
@@ -23,6 +25,7 @@ function App() {
               url="url"/>
       <WepViewTr/>
       <ApiTable/>
+      <Skills/>
     </>
   )
 }

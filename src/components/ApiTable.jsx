@@ -2,57 +2,54 @@
 
 export const ApiTable = () => {
   return (
-<div className='flex min-h-screen items-center justify-center min-h-screen'>
-    <div className="flex items-center justify-center min-h-[700px] ">
-        <div className="overflow-x-auto relative shadow-md sm:rounded-lg w-full">
-            <div className="overflow-x-auto relative shadow-md sm:rounded-lg w-full">
-            <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-                <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                <tr>
-                    <th scope="col" className="py-3 px-6">Person</th>
-                    <th scope="col" className="py-3 px-6">Bank Account</th>
-                    <th scope="col" className="py-3 px-6">Amount</th>
-                    <th scope="col" className="py-3 px-6">Approved</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <td className="py-4 px-6">Alex Johnson</td>
-                    <td className="py-4 px-6">82926417</td>
-                    <td className="py-4 px-6">$4,500.00</td>
-                    <td className="py-4 px-6">Yes</td>
-                </tr>
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <td className="py-4 px-6">Maria Garcia</td>
-                    <td className="py-4 px-6">55387621</td>
-                    <td className="py-4 px-6">$3,150.00</td>
-                    <td className="py-4 px-6">No</td>
-                </tr>
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <td className="py-4 px-6">James Smith</td>
-                    <td className="py-4 px-6">90817264</td>
-                    <td className="py-4 px-6">$7,820.00</td>
-                    <td className="py-4 px-6">Yes</td>
-                </tr>
-                <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                    <td className="py-4 px-6">Patricia Brown</td>
-                    <td className="py-4 px-6">26483910</td>
-                    <td className="py-4 px-6">$1,230.00</td>
-                    <td className="py-4 px-6">Yes</td>
-                </tr>
-                <tr className="bg-white dark:bg-gray-800">
-                    <td className="py-4 px-6">Ethan Davis</td>
-                    <td className="py-4 px-6">64738290</td>
-                    <td className="py-4 px-6">$865.00</td>
-                    <td className="py-4 px-6">No</td>
-                </tr>
-                </tbody>
-            </table>
-            </div>
-    </div>
-    
+<div className="p-6 flex justify-center h-screen items-center">
+<div className="max-w-3xl ">
+<h2 className="text-white text-4xl font-bold mb-8">API REST</h2>
+<table className="table-auto bg-stone-800 rounded text-neutral-400">
+    <thead>
+      <tr className="border-neutral-400 border-b-2">
+        <th className="px-4 py-2">Project</th>
+        <th className="px-4 py-2">Description</th>
+        <th className="px-4 py-2">Repo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="px-4 py-2">API Movies</td>
+        <td className="px-4 py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Quo iusto minus accusantium sunt tempora, vero earum voluptas repellat molestias, 
+                                    necessitatibus accusamus. Id hic, suscipit architecto error dolores, magnam corrupti fugit, 
+                                    consectetur culpa explicabo odio.</td>
+        <td className="px-4 py-2">                
+            <a className="rounded-full bg-emerald-600  font-bold text-white px-7 py-2 hover:scale-110 transition-all duration-300" 
+               href="">VISIT</a>
+        </td>
+      </tr>
+      <tr>
+        <td className="px-4 py-2">API Movies</td>
+        <td className="px-4 py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Quo iusto minus accusantium sunt tempora, vero earum voluptas repellat molestias, 
+                                    necessitatibus accusamus.</td>
+        <td className="px-4 py-2">                
+            <a className="rounded-full bg-emerald-600  font-bold text-white px-7 py-2 hover:scale-110 transition-all duration-300" 
+               href="">VISIT</a>
+        </td>
+      </tr>
+      <tr>
+        <td className="px-4 py-2">API Movies</td>
+        <td className="px-4 py-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                    Quo iusto minus accusantium sunt tempora, vero earum voluptas repellat molestias, 
+                                   </td>
+        <td className="px-4 py-2">                
+            <a className="rounded-full bg-emerald-600  font-bold text-white px-7 py-2 hover:scale-110 transition-all duration-300" 
+               href="">VISIT</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 </div>
+
 
   )
 }
