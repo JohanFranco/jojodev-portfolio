@@ -1,26 +1,27 @@
-import { useEffect } from 'react';
-import '../index.css'
+import AnimatedCursor from "react-animated-cursor"
 
 export const CustomCursor = () => {
-    useEffect(() => {
-        const cursor = document.querySelector('.custom-cursor');
-        const cursorLight = document.querySelector('.cursor-light');
-        const cursorDot = document.querySelector('.cursor-dot');
-    
-        document.addEventListener('mousemove', (e) => {
-          cursor.style.left = `${e.clientX}px`;
-          cursor.style.top = `${e.clientY}px`;
-          cursorLight.style.left = `${e.clientX}px`;
-          cursorLight.style.top = `${e.clientY}px`;
-          cursorDot.style.left = `${e.clientX}px`;
-          cursorDot.style.top = `${e.clientY}px`;
-        });
-      }, []);
-    
+
       return (
-        <div className="custom-cursor">
-          <div className="cursor-light"></div>
-          <div className="cursor-dot"></div>
-        </div>
-      );
+<AnimatedCursor
+      innerSize={10}
+      outerSize={28}
+      color='255, 255, 255'
+      outerAlpha={0.2}
+      innerScale={0.7}
+      outerScale={10}
+      clickables={[
+        'a',
+        'input[type="text"]',
+        'input[type="email"]',
+        'input[type="number"]',
+        'input[type="submit"]',
+        'input[type="image"]',
+        'label[for]',
+        'select',
+        'textarea',
+        'button',
+        '.link'
+      ]}
+    />      )
 }

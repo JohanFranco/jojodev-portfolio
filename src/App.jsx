@@ -6,11 +6,12 @@ import { Skills } from "./components/Skills"
 import { WepView } from "./components/WepView"
 import { WepViewReverse } from "./components/WepViewReverse"
 import { WepViewTr } from "./components/WepViewTr"
-
+import './index.css'
 function App() {
 
   return (
     <>
+    <CustomCursor/>
       <NavBar/>
       <Home/>
       <WepView 

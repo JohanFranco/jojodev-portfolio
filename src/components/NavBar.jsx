@@ -1,7 +1,7 @@
 
 export const NavBar = () => {
   return (
-    <nav className="bg-transparent fixed top-0 left-0 w-full z-50 px-80" >
+    <nav className="bg-stone-900 fixed top-0 left-0 w-full z-50 px-80" >
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">JOHAN <span className="text-emerald-600">FRANCO</span></span>
@@ -15,16 +15,16 @@ export const NavBar = () => {
       <div className="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse ">
           <li>
-          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent hover:scale-110 transition-all duration-300">Home</a>
           </li>
           <li>
-            <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+            <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent hover:scale-110 transition-all duration-300">Projects</a>
           </li>
           <li>
-          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
+          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent hover:scale-110 transition-all duration-300">Skills</a>
           </li>
           <li>
-          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-600 md:hover:bg-transparent md:border-0 md:hover:text-emerald-600 md:p-0 dark:text-white md:dark:hover:text-emerald-600 dark:hover:bg-emerald-600 dark:hover:text-white md:dark:hover:bg-transparent hover:scale-110 transition-all duration-300">Contact</a>
           </li>
         </ul>
       </div>
