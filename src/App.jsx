@@ -1,4 +1,5 @@
 import { ApiTable } from "./components/ApiTable"
+import { Contact } from "./components/Contact"
 import { CustomCursor } from "./components/CustomCursor"
 import { Home } from "./components/Home"
 import { NavBar } from "./components/NavBar"
@@ -6,12 +7,12 @@ import { Skills } from "./components/Skills"
 import { WepView } from "./components/WepView"
 import { WepViewReverse } from "./components/WepViewReverse"
 import { WepViewTr } from "./components/WepViewTr"
-import './index.css'
-function App() {
 
+function App() {
   return (
     <>
     <CustomCursor/>
+
       <NavBar/>
       <Home/>
       <WepView 
@@ -24,9 +25,12 @@ function App() {
               title="WEB PAGE TITLE" 
               description="Esta vainaesta hecha con su makina chda cola uwu perron paralelogramo escosovio e file" 
               url="url"/>
-      <WepViewTr/>
+     
+     <WepViewTr/>
       <ApiTable/>
       <Skills/>
+      {/* <Contact/> */}
+
     </>
   )
 }

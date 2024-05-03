@@ -12,7 +12,7 @@ export const WepView = ({ title, description, url, pathImage }) => {
                 <p className="text-white text-xl max-w-96 mb-8">
                     {description}
                 </p>
-                <a className="rounded-full bg-emerald-600 text-black font-extrabold px-7 py-2 btn" href={url}>VISIT</a>
+                <button className="rounded-full bg-emerald-600 text-black font-extrabold px-7 py-2 hover:scale-110 transition-all duration-300 text-black hover:text-white" href={url}>VISIT</button>
          </div>
        </div>
    </div>

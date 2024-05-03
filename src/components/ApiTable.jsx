@@ -21,8 +21,7 @@ export const ApiTable = () => {
                                     necessitatibus accusamus. Id hic, suscipit architecto error dolores, magnam corrupti fugit, 
                                     consectetur culpa explicabo odio.</td>
         <td className="px-4 py-2">                
-            <a className="rounded-full bg-emerald-600  font-bold text-white px-7 py-2 hover:scale-110 transition-all duration-300" 
-               href="">VISIT</a>
+        <button className="rounded-full bg-emerald-600 text-black font-extrabold px-7 py-2 hover:scale-110 transition-all duration-300 text-black hover:text-white">VISIT</button>
         </td>
       </tr>
       <tr>
@@ -31,8 +30,7 @@ export const ApiTable = () => {
                                     Quo iusto minus accusantium sunt tempora, vero earum voluptas repellat molestias, 
                                     necessitatibus accusamus.</td>
         <td className="px-4 py-2">                
-            <a className="rounded-full bg-emerald-600  font-bold text-white px-7 py-2 hover:scale-110 transition-all duration-300" 
-               href="">VISIT</a>
+        <button className="rounded-full bg-emerald-600 text-black font-extrabold px-7 py-2 hover:scale-110 transition-all duration-300 text-black hover:text-white">VISIT</button>
         </td>
       </tr>
       <tr>
@@ -41,8 +39,7 @@ export const ApiTable = () => {
                                     Quo iusto minus accusantium sunt tempora, vero earum voluptas repellat molestias, 
                                    </td>
         <td className="px-4 py-2">                
-            <a className="rounded-full bg-emerald-600  font-bold text-white px-7 py-2 hover:scale-110 transition-all duration-300" 
-               href="">VISIT</a>
+        <button className="rounded-full bg-emerald-600 text-black font-extrabold px-7 py-2 hover:scale-110 transition-all duration-300 text-black hover:text-white">VISIT</button>
         </td>
       </tr>
     </tbody>

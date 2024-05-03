@@ -1,8 +1,0 @@
-
-.btn{
-  transition: all .3 ease-in-out !important;
-}
-
-.btn:hover {
-  transform: scale(1.1) !important;
-}
